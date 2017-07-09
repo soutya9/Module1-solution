@@ -11,7 +11,7 @@
             var itemsList = 0;
             $scope.message = "";
             if (!$scope.items) {
-                $scope.message = "Enter data!";
+                $scope.message = "Please enter data first";
             } else {
                 var itemsListVal = $scope.items.split(',');
                 var i;
